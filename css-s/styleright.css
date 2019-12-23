@@ -1,0 +1,356 @@
+
+main{
+	width: 100%;
+	margin-top: 50px;
+}
+.main{
+	margin: auto;
+	width: 1100px;
+	display: flex;
+	justify-content: space-between;
+}
+.right{
+	width: 65%;
+	border:1px solid #f2f2f2;
+	height: 1362px;
+}
+.top_right{
+	width: calc(100% - 15px);
+	height: 20px;
+	color: white;
+	font-size: 25px;
+	padding: 10px 0px 15px 15px;
+	background: #90a0ba;
+}
+.cars{
+	position: relative;
+	width: 100%;
+	overflow-y: scroll;
+	height: 450px;
+	background: #ecf0f3;
+}
+.cars::-webkit-scrollbar{
+	width: 10px;
+	height: 10px;
+}
+.cars::-webkit-scrollbar-track{
+	background: #e2e6e9;
+	width: 1px;
+}
+.cars::-webkit-scrollbar-thumb{
+	background: #919fbc;
+	border-radius: 10px;
+}
+.cards_blocks::-webkit-scrollbar{
+	width: 10px;
+	height: 10px;
+}
+.cards_blocks::-webkit-scrollbar-track{
+	background: #e2e6e9;
+	width: 1px;
+}
+.cards_blocks::-webkit-scrollbar-thumb{
+	background: #919fbc;
+	border-radius: 10px;
+}
+.cars_head{
+	width: 95%;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	margin-top: 15px;
+}
+.cars_head > div{
+	margin-right: 2px;
+	border:1px solid #90a0ba;
+	background: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.picture{
+	width: calc(14% + 20px);
+
+}
+.brand{
+	width: 8%;
+}
+.name1{
+	width: 49%;
+}
+.price .qu .sub{
+	width: 11%;
+}
+.products{
+	width: 95%;
+	margin: auto;
+}
+.block{
+	width: 100%;
+	margin: auto;
+	height: 120px;
+	border: 2px solid white;
+	border-left: none;
+	border-right: none;
+	border-top:none;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+}
+.Number{
+	padding-top: 35px;
+	height: 105px;
+    position: relative;
+    margin-right: 2px;
+    width: 16%;
+}
+.pic{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.mark{
+	padding-top: 35px;
+	padding-left: 12px;
+    font-size: 10px;
+    width: 7%;
+}
+.options{
+	width: 36%;
+    padding-left: 22px;
+}
+.money{
+	padding-top: 35px;
+	width: 9%;
+    padding-left: 4px;
+}
+.hz{
+	text-align: center;
+	padding-top: 35px;
+	width: 11%;
+    padding-left: 10px;
+}
+.total_money{
+	padding-top: 35px;
+	display: flex;
+    width: 11%;
+    padding-left: 10px;
+}
+.end_block{
+	height: 40px;
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: -10px;
+}
+.cars_foot{
+	height: 20px;
+	width: 100%;
+	background: #ecf0f3;
+	display: flex;
+	margin-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.pos{
+	height: 100%;
+	width: 80%;
+	display: flex;
+	justify-content: flex-end;
+}
+.pos > b {
+	margin-right: 10px;
+}
+.foot_money > b{
+	margin-left: 10px;
+}
+.foot_money{
+	width: 20%;
+}
+.use{
+	width: 100%;
+	height: 25px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.code{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.code > input {
+	width: 75%;
+	padding: 10px 0px 10px 10px;
+	background: #ecf0f3;
+	color: #dbdfe2;
+}
+.apply{
+	width: 20%;
+	text-align: center;
+	padding: 10px 10px;
+	background: #d4d7de;
+	color: white;
+}
+.cards{
+	width: 100%;
+	margin-top: 20px;
+}
+.cards_head{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #909ebd;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+.methods{
+	margin-left: 10px;
+}
+.cards_images > img{
+	margin-right: 10px;
+}
+.cards_blocks{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 180px;
+	display: flex;
+	justify-content: flex-start;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+.container_cards{
+	width: 1500px;
+	display: flex;
+}
+.inside{
+	width: 200px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	border: 1px solid #efefef;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+}
+.inside > input {
+	margin-bottom: 10px;
+}
+.inside > img{
+	margin:auto;
+	margin-bottom:30px;
+	height: 50px;
+	width: 70px;
+}
+.inside > div {
+	margin-bottom: 10px;
+	height: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.blue_block{
+	width: 100%;
+	background: #f2f6f9;
+}
+.white_block{
+	width: 100%;
+}
+.total_cards{
+	width: 100%;
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #ecf0f3;
+	text-align: right;
+}
+.total_cards > b {
+	margin-right: 20px;
+}
+.pay{
+	margin-top: 15px;
+	width: 100%;
+	box-shadow: 10px 10px 10px #f1f1f1;
+	height: 100px;
+}
+.pay_head{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	background: #90a0ba
+}
+.pay_head > b {
+	margin-left: 10px;
+}
+.variants {
+	display: flex;
+	justify-content: space-between;
+	height: 30px;
+}
+.variants > div {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	width: 50%;
+	height: 30px;
+}
+.paypal {
+	border: 1px solid #efefef;
+	border-top: none;
+	border-left: none;
+	border-bottom: none;
+}
+.paypal > input {
+	width: 15px;
+	margin-left: 10px;
+}
+.paypal > img {
+	margin-right: 10px;
+	margin-top: -10px;
+}
+.visa > input {
+	width: 15px;
+	margin-left: 10px;
+}
+.visa > img {
+	margin-right: 10px;
+	margin-top: -10px;
+}
+.note{
+	width: 100%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.note > input {
+	margin-top: 15px;
+	width: 100%;
+	height: 80px;
+	background: #ecf0f3
+}
+.signs {
+	margin-top: 10px;
+	width: 100%;
+}
+.signs > div {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 10px
+}
+.signs > div > input {
+	width: 15px;
+}
+.place{
+	margin-top: 20px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	background: #d2443a;
+	color: white
+}

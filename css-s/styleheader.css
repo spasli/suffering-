@@ -1,0 +1,161 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	background: #ecf0f3;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: 80px;
+}
+.head{
+	margin: auto;
+	width: 1100px;
+	display: flex;
+	justify-content: space-around;
+	color: #38404d;
+}
+.logo_cov {
+	width: 70px;
+	height: 70px;
+	display: flex;
+	background: #30405a;
+}
+.logo_ins{
+	margin-top: 15px;
+	margin-left: 10px;
+	width: 50px;
+	height: 40px;
+	display: flex;
+	background: #30405a;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.s1{
+	background: white;
+	height: 2px;
+	width: 50%;
+}
+.s2{
+	background: white;
+	height: 2px;
+	width: 25%;
+	margin-right: 13px;
+}
+span{
+	color: #b83e4b;
+}
+.name{
+	margin-top: 30px;
+	font-size: 25px;
+}
+.search{
+	border: 1px solid #dcdfe4;
+	background: #f2f6f9;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	width: 50%;
+	height: 25px;
+	margin-top: 30px;
+	display: flex;
+}
+.inf{
+	margin-top: 5px;
+}
+.lupa{
+	margin-top: 5px;
+	padding-left: 5px;
+	margin-left: 5px;
+	border:1px solid #b83e4b;
+	border-right:none;
+	border-top: none;
+	border-bottom: none; 
+	margin-right: 10px;
+}
+input{
+	padding-left: 5px;
+	border: none;
+	width: 100%;
+	background:#f2f6f9;
+}
+.language{
+	margin-left: 20px;
+	margin-top: 40px;
+	display: flex;
+	height: 20px;
+}
+.eng{
+	margin-right: 15px;
+	padding-right: 15px;
+	border:1px solid #b83e4b;
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+}
+.cubs{
+	margin-left: 25px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+}
+.cub1{
+	position: relative;
+}
+.cub1:after{
+	content: "5";
+	display: block;
+	border: 1px solid #b83e4b;
+	border-radius: 50%;
+	background: #b83e4b;
+	font-size: 10px;
+	color: white;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: -5px;
+	right: -5px;
+}
+.cubs > div {
+	padding-top: 5px;
+	margin-right: 5px;
+	border:1px solid #dee2e5;
+	width: 35px;
+	height: 30px;
+	text-align: center; 
+}
+.underhead{
+	width: 1100px;
+	margin: auto;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.home{
+	font-size: 30px;
+	color: #5d5f6b;
+}
+.shoping{
+	background: #2b3d5d;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	width: 170px;
+	height: 25px;
+	color: white;
+	position: relative;
+}
+.shoping:before {
+	content: "<";
+	padding-top: 5px;
+	text-align: center;
+	background: #cc4638;
+	height: 35px;
+	width: 50px;
+	font-size: 30px;
+	position: absolute;
+	top: 0px;
+	left: -50px;
+}
